@@ -47,6 +47,7 @@ function scriviHTML()
 
 function scrivi()
 {
+  //imposto le funzioni per data e ora
    estratti = 0
    for (i=0; i<=studenti; i++) estratto[i]=false
    var data = new Date();
@@ -60,7 +61,7 @@ function scrivi()
    var colonne = numero+1
    var html ='<table align="center">'
        html+='<tr><td class="pad" colspan="'+colonne+'">Estrazione ('+disciplina+') del '+gg+mm+aaaa+' alle ore '+hours+':'+minutes+' Alunni: '+studenti;
-
+  //ciclo il numero di gruppi
    for (g=1; g<=gruppi; g++)
    {
       html+='<tr><td class="gruppo">gruppo n. '+g
