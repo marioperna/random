@@ -1,2 +1,2 @@
-# random
-Random ID number of students for oral test
+# Random Student ID Generator
+Student id generator for creating working groups
